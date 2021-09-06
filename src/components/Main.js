@@ -22,7 +22,7 @@ class Main extends Component {
                 {
 
                     animal.map(element => {
-
+return <HornedBeast title={element.name} img={element.image} description={element.desc} />
                     })
                 }
             </>
