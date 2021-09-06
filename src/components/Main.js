@@ -6,7 +6,7 @@ class Main extends Component {
         let animal = [{
             Imgtitle: 'unicorn',
             src: 'https://process.filepicker.io/APHE465sSbqvbOIStdwTyz/rotate=deg:exif/resize=fit:crop,height:283,width:472/output=quality:80,compress:true,strip:true,format:jpg/cache=expiry:max/https://cdn.filestackcontent.com/1KfnS1kETJC8bdgBcizm',
-            description: 'The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.',
+            des: 'The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.',
         },
         {
             Imgtitle: 'Rhinos',
@@ -18,7 +18,7 @@ class Main extends Component {
             <>
            {
                animal.map(item=>{
-                return < HornedBeast title={item.Imgtitle} img={item.src} description={item.desc}/>
+                return < HornedBeast title={item.Imgtitle} src={item.src} description={item.desc}/>
                })
            }
             </>

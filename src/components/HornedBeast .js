@@ -4,9 +4,9 @@ class HornedBeast  extends Component {
     render() {
         return (
             <>
-                <h2> Imgtitle: {this.props.Imgtitle} </h2>
+                <h2> title: {this.props.title} </h2>
                 <img src={this.props.src} alt={this.props.titleImg} titleImg='image'/>
-                <p> desc: {this.props.desc} </p>
+                <p> description: {this.props.description} </p>
             </>
         )
     }
