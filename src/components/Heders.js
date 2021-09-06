@@ -9,4 +9,5 @@ class Heders extends Component {
         )
     }
 }
+
 export default Heders;
