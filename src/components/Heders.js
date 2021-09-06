@@ -4,10 +4,9 @@ class Heders extends Component {
     render() {
         return (
             <>
-                <h1>horned animals</h1>
+                <h1>Horned Animals</h1>
             </>
         )
     }
 }
-
-export default Heders
+export default Heders;
