@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+
 import HornedBeast from './ HornedBeast'
+
 
 class Main extends Component {
     render() {
@@ -18,13 +20,13 @@ class Main extends Component {
         return (
             <>
                 {
+
                     animal.map(element => {
-                        return < HornedBeast title={element.name} img={element.image} description={element.desc} />
+
                     })
                 }
             </>
         )
     }
 }
-
-export default Main
+export default Main;
