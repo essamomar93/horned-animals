@@ -1,5 +1,4 @@
-# horned-animals 
 
-
-for lab 02 : we lern alot about the map and how to add chiled to parent 
-i have some help from google and slakflow 
+# horned-animals
+lab01: the main thing that we learn is how to inestal and open the ract and how to import the files and use it. 
+ 
