@@ -6,18 +6,18 @@ import Data from './data.json'
 class Main extends Component {
     render() {
         return (
-            <>
+            <div className="row">
                 {
                     Data.map(item => {
                         return (
                             <>
-                                <HornedBeast item={item} />
-
+                                <HornedBeast item={item} handleOpen={this.props.handleOpen} />
+                               
                             </>
                         )
                     })
                 }
-            </>
+            </div>
         )
     }
 }
