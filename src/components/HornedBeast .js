@@ -21,9 +21,9 @@ class HornedBeast extends Component {
     getHandleOpen = () => {
         let title = this.props.item.title;
         let src = this.props.item.image_url;
-        let description =this.props.item.description;
+        let description = this.props.item.description;
 
-        this.props.handleOpen(src, title,description);
+        this.props.handleOpen(src, title, description);
     }
     render() {
 
@@ -31,7 +31,7 @@ class HornedBeast extends Component {
             <>
                 <Col>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={this.props.item.image_url} width='100%' height='100%' onClick={this.raiseVote} />
+                        <Card.Img variant="top" src={this.props.item.image_url} width='100px' height='250px' onClick={this.raiseVote} />
                         <Card.Body>
                             <Card.Title>Title: {this.props.item.title}</Card.Title>
                             <Card.Text>
