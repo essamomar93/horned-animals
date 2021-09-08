@@ -4,8 +4,6 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SelectedBeast from "./components/SelectedBeast";
-// import HornedBeast from "./components/HornedBeast ";
-
 
 class App extends Component {
 
@@ -13,7 +11,7 @@ class App extends Component {
     super(props);
     this.state = {
       showModal: false,
-      src: "",
+      src:"" ,
       title: "",
       description: "",
     }
@@ -37,8 +35,6 @@ class App extends Component {
       <>
         <Heders />
         <Main handleOpen={this.handleOpen} />
-        {/* <HornedBeast/> */}
-
         <SelectedBeast
           handleClose={this.handleClose}
           showModal={this.state.showModal}
