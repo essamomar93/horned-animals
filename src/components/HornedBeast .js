@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+
 import {
     Card,
     Button,
     Col,
 } from 'react-bootstrap';
+
 
 class HornedBeast extends Component {
 
